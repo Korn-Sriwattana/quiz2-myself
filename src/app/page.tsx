@@ -1,4 +1,7 @@
 "use client";
+import PostOwnner from "@/components/PostOwnner";
+import Comment from "@/components/Comment";
+import Reply from "@/components/Reply";
 
 export default function Home() {
   return (
@@ -11,8 +14,10 @@ export default function Home() {
         style={{ maxWidth: "700px", backgroundColor: "#242526" }}
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
+        <PostOwnner />
+        </div>
         {/* Post Owner Example*/}
-        <div className="vstack gap-3">
+        {/* <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
               src="public\profileImages\Screenshot 2024-08-08 142317.jpg"
@@ -35,9 +40,12 @@ export default function Home() {
             <span style={{ color: "#B0B3B8" }}>100 คน</span>
           </div>
           <hr className="m-0 border" />
-        </div>
+        </div> */}
 
         {/* Comment Example */}
+        <div>
+          <Comment />
+        </div>
         <div className="d-flex gap-2 my-2">
           <img
             src="/profileImages/lisa.jpg"
@@ -89,6 +97,5 @@ export default function Home() {
 
         {/* map-loop render Comment component here */}
       </div>
-    </div>
   );
 }
