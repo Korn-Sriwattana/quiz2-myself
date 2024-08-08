@@ -1,11 +1,11 @@
 "use client";
 
 export default function Comment({
-  userImagePath: any,
-  username: any,
-  commentText: any,
-  likeNum: any,
-  replies: any,
+  userImagePath: string,
+  username: string,
+  commentText: string,
+  likeNum: string,
+  replies: string,
 }) {
   return (
     <div className="d-flex gap-2 my-2">

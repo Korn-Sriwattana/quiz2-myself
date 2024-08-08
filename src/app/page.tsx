@@ -43,9 +43,9 @@ export default function Home() {
         </div> */}
 
         {/* Comment Example */}
-        <div>
+        {/* <div>
           <Comment />
-        </div>
+        </div> */}
         <div className="d-flex gap-2 my-2">
           <img
             src="/profileImages/lisa.jpg"
