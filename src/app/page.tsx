@@ -15,19 +15,19 @@ export default function Home() {
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="/profileImages/handsome.jpg"
+              src="public\profileImages\Screenshot 2024-08-08 142317.jpg"
               width="48"
               height="48"
               className="rounded-circle"
               style={{ objectFit: "cover" }}
             />
             <span className="fw-semibold fs-5 text-white">
-              Chayanin Suatap 650610560
+              Korn Sriwattana 660610738
             </span>
           </div>
 
           <span className="text-white">
-            Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207
+            Quiz ฮือๆจังเลยครับ  #261207
           </span>
 
           <div className="d-flex align-items-center gap-1">
