@@ -1,16 +1,16 @@
 "use client";
 
 export default function Comment({
-  userImagePath: string,
-  username: string,
-  commentText: string,
-  likeNum: string,
-  replies: string,
+  userImagePath ,
+  username ,
+  commentText ,
+  likeNum ,
+  replies ,
 }) {
   return (
     <div className="d-flex gap-2 my-2">
           <img
-            src = "userImagePath"
+            src = "/profileImages/lisa.jpg"
             width="48"
             height="48"
             className="rounded-circle"
@@ -21,13 +21,13 @@ export default function Comment({
             style={{ backgroundColor: "#3A3B3C" }}
           >
             <span className="fw-semibold" style={{ color: "#E4E6EB" }}>
-              Lisa
+            Comment.username
             </span>
             <br />
-            <span style={{ color: "#E4E6EB" }}>{commentText}</span>
+            <span style={{ color: "#E4E6EB" }}>.</span>
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
-              <span style={{ color: "#B0B3B8" }}>{likeNum}</span>
+              <span style={{ color: "#B0B3B8" }}>.</span>
             </div>
           </div>
         </div>
